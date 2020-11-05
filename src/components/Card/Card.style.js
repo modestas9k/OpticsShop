@@ -31,9 +31,8 @@ export const Image = styled.div`
   height: 230px;
 `;
 
-export const TextBox = styled.div`
-  
-`
+export const ClickBox = styled.div`
+`;
 export const Title = styled.h3`
   display: block;
   font-weight: 200;
@@ -48,4 +47,4 @@ export const Start = styled.span`
   font-weight: 200;
   font-size: 0.9em;
   color: #666;;
-`
+`;
