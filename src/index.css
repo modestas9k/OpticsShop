@@ -1,3 +1,5 @@
 body {
   font-family: helvetica;
+  min-height: 100vh;
+  position: relative;
 }

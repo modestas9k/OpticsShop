@@ -4,7 +4,7 @@ import { Section, Subscribe } from "../../components";
 
 function Footer() {
   return (
-    <>
+    <S.MainFoot>
       <Section background="f4f4f4">
         <S.Footer>
           <S.FooterLinks>
@@ -20,7 +20,7 @@ function Footer() {
       <S.Copyright>
         <S.Span>Copyright © 2020 by Modestas</S.Span>
       </S.Copyright>
-    </>
+    </S.MainFoot>
   );
 }
 

@@ -1,6 +1,12 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+export const MainFoot = styled.div`
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+`
+
 export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
