@@ -40,7 +40,7 @@ function Cart() {
           </tr>
         </S.Thead>
         <tbody>
-          {cartItems.length === 0 && <p>Cart is empty :/</p>}
+          {cartItems.length === 0 && <S.Td>Cart is empty :/</S.Td>}
           {uniqueItems && uniqueItems.map((item) => productsFind(item))}
         </tbody>
       </S.Table>
