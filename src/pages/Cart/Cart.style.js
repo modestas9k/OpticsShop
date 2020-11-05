@@ -13,7 +13,7 @@ export const Thead = styled.thead`
 export const Th = styled.th`
   padding: 15px;
 `;
-export const Td = styled.th`
+export const Td = styled.td`
   padding: 10px;
   font-weight: 300;
 `;
